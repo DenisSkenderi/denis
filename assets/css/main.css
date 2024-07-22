@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+}
+.home{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    opacity: 0.9;
+}
+.ulList{
+    flex-direction: row;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    margin-right: 350px;
+}
+.list{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: white;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.link{
+    color: white;
+}
+.link:link{
+    text-decoration: none;
+}
+.link:hover{
+    color: #192bc2;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 500px;
+    display: inline-block;
+    margin-top: 15px; 
+}
+.logo:link{
+    text-decoration: none;
+}
+.logo:hover{
+    color: #192bc2;
+}
+.banner{
+    filter: brightness(40%);
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
+    height: 950px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutTitle{
+    margin-top: 30px;
+}
+.about {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.aboutBox{
+    margin-top: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 950px;
+    height: auto;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profilepic{
+    width: 150px;
+}
+.infos{
+    margin-top: 30px;
+}
+.aboutMe{
+    margin-top: 40px;
+}
+.aboutText{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.skills{
+    margin-top: 30px;
+}
+.skillsSubtitle{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.services{
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+}
+.titleServices{
+    margin-top: 50px;
+}
+.serviceBorder{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service{
+    border: 1px solid lightgray;
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.serviceTitle{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.projects{
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+}
+.titleProjects{
+    margin-top: 50px;
+}
+.projectsPortofolio{
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+    padding: 40px;
+    margin-top: 70px;
+}
+.portofolioBox{
+    height: 300px;
+    width: 550px;
+}
+.projectTitle{
+    margin-top: 270px;
+    float: left;
+    margin-left: -380px;
+}
+.contact{
+    margin-top: 150px;
+    padding: 40px;
+    text-align: center;
+}
+.titleContact{
+    margin-top: 50px;
+}
+.contactBorder{
+    margin-top: 50px;
+    border: 2px solid gray ;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px #888888;
+}
+.map{
+    margin-top: 220px;
+    float: left;
+    margin-left: -250px;
+}
+.getintouchTitle{
+    float: left;
+}
+.info{
+    margin-top: 50px;
+    float: left;
+    margin-left: -150px;
+}
+.label{
+    float: left;
+}
+.copy{
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 50px;
+}
+@media (max-width: 1200px) {
+    .ulList {
+        margin-right: 100px;
+    }
+
+    .logo {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .home {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .ulList {
+        float: none;
+        margin-right: 0;
+    }
+
+    .list {
+        float: none;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .banner {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 768px) {
+    .ulList {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list {
+        margin: 10px 0;
+    }
+
+    .aboutBox {
+        width: 90%;
+    }
+
+    .serviceBorder {
+        flex-direction: column;
+    }
+
+    .portofolioBox {
+        width: 90%;
+    }
+
+    .contactBorder {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    .list {
+        font-size: 14px;
+    }
+
+    .aboutText,
+    .skillsSubtitle {
+        font-size: 18px;
+    }
+
+    .serviceTitle {
+        font-size: 18px;
+    }
+
+    .projectsPortofolio {
+        width: 100%;
+    }
+}
