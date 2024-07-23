@@ -293,6 +293,18 @@ body{
         text-align: left;
         margin-left: 0;
     }
+    .titleProjects {
+        font-size: 1.75em;
+    }
+    
+    .projectTitle {
+        font-size: 1.25em;
+    }
+    
+    .projectImage {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 576px) {
@@ -335,6 +347,23 @@ body{
     .map {
         height: 250px;
     }
+    .titleProjects {
+        font-size: 1.5em;
+    }
+
+    .projectTitle {
+        font-size: 1em;
+    }
+
+    .projectImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .portofolioBox {
+        padding: 5px;
+        margin: 5px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -363,5 +392,22 @@ body{
     .projectsPortofolio {
         width: 100%;
         padding: 5px;
+    }
+    .titleProjects {
+        font-size: 1.5em;
+    }
+
+    .projectTitle {
+        font-size: 1em;
+    }
+
+    .projectImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .portofolioBox {
+        padding: 5px;
+        margin: 5px;
     }
 }
