@@ -338,6 +338,9 @@ body{
         margin-left: 100px;
         margin-top: 0;
     }
+    .copy{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -364,5 +367,8 @@ body{
     .projectTitle{
         margin-left: 70px;
         margin-top: 0;
+    }
+    .copy{
+        font-size: 18px;
     }
 }
