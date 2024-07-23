@@ -314,51 +314,40 @@ body{
 }
 
 @media (max-width: 576px) {
-    .logo {
-        font-size: 18px;
-    }
-
-    .list {
-        font-size: 14px;
-    }
-
-    .aboutText,
-    .skillsSubtitle {
-        font-size: 18px;
-    }
-
-    .serviceTitle {
-        font-size: 18px;
-    }
-
-    .projectsPortofolio {
-        width: 100%;
-        padding: 10px;
-    }
-    
-    .portofolioBox {
-        width: 100%;
-        height: auto;
-    }
-    
     .contact {
-        padding: 10px;
+        padding: 5px;
     }
 
     .contactBorder {
         width: 100%;
-        padding: 10px;
+        padding: 5px;
+    }
+
+    .info label {
+        margin: 2px 0;
     }
 
     .map {
-        height: 250px;
+        height: 200px;
+    }
+
+    .portofolioBox {
+        width: 100%;
+        height: auto;
+    }
+
+    .projectsPortofolio {
+        width: 100%;
+        padding: 5px;
+        height: auto;
     }
     .titleProjects {
         font-size: 1.5em;
     }
 
     .projectTitle {
-        font-size: 1em;
+        margin-top: 200px;
+        font-size: 20px;
     }
 
     .projectImage {
@@ -370,8 +359,16 @@ body{
         padding: 5px;
         margin: 5px;
     }
+    .project-link{
+        height: 250px;
+        width: 250px;
+    }
     .project-image{
-        width: 100%;
+        width: 250px;
+    }
+    .projectTitle{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -401,6 +398,7 @@ body{
     .projectsPortofolio {
         width: 100%;
         padding: 5px;
+        height: auto;
     }
     .titleProjects {
         font-size: 1.5em;
