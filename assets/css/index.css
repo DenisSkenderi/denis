@@ -427,4 +427,8 @@ body{
     .project-image{
         width: 250px;
     }
+    .projectTitle{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
