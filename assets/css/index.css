@@ -410,4 +410,7 @@ body{
         padding: 5px;
         margin: 5px;
     }
+    .project-link{
+        height: 250px;
+    }
 }
