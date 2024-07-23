@@ -261,10 +261,37 @@ body{
 
     .portofolioBox {
         width: 90%;
+        height: auto;
+    }
+
+    .projectsPortofolio {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .contact {
+        max-width: 100%;
+        padding: 15px;
     }
 
     .contactBorder {
+        width: 80%;
+        padding: 15px;
+        height: auto;
+    }
+
+    .map {
         width: 100%;
+        height: 300px;
+        float: none;
+        margin: 20px 0;
+    }
+
+    .getintouchTitle, .info {
+        float: none;
+        text-align: left;
+        margin-left: 0;
     }
 }
 
@@ -288,5 +315,53 @@ body{
 
     .projectsPortofolio {
         width: 100%;
+        padding: 10px;
+    }
+    
+    .portofolioBox {
+        width: 100%;
+        height: auto;
+    }
+    
+    .contact {
+        padding: 10px;
+    }
+
+    .contactBorder {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .map {
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        padding: 5px;
+    }
+
+    .contactBorder {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .info label {
+        margin: 2px 0;
+    }
+
+    .map {
+        height: 200px;
+    }
+
+    .portofolioBox {
+        width: 100%;
+        height: auto;
+    }
+
+    .projectsPortofolio {
+        width: 100%;
+        padding: 5px;
     }
 }
