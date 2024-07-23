@@ -239,6 +239,9 @@ body{
     .banner {
         background-attachment: scroll;
     }
+    .project-image{
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -305,6 +308,9 @@ body{
         width: 100%;
         height: auto;
     }
+    .project-image{
+        width: 100%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -364,6 +370,9 @@ body{
         padding: 5px;
         margin: 5px;
     }
+    .project-image{
+        width: 100%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -398,7 +407,8 @@ body{
     }
 
     .projectTitle {
-        font-size: 1em;
+        margin-top: 200px;
+        font-size: 20px;
     }
 
     .projectImage {
@@ -412,5 +422,9 @@ body{
     }
     .project-link{
         height: 250px;
+        width: 250px;
+    }
+    .project-image{
+        width: 100%;
     }
 }
