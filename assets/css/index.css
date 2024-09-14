@@ -243,7 +243,7 @@ body{
         height: auto;
         padding: 10px;
     }
-
+/* 
     .ulList {
         float: none;
         margin-right: 0;
@@ -258,7 +258,7 @@ body{
     .logo {
         margin-left: 0;
         margin-bottom: 10px;
-    }
+    } */
 
     .banner {
         background-attachment: scroll;
