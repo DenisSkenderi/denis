@@ -131,6 +131,30 @@ body{
     font-size: 20px;
     margin-top: 50px;
 }
+.certification {
+    width: 100%;
+    margin-top: 100px;
+    height: auto;
+}
+
+.titleCertification {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.certificationLay1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.certificationLay1 a img {
+    width: 100%;
+    max-width: 550px; /* max width for desktop */
+    height: auto;
+}
 .projects{
     margin-top: 150px;
     padding: 20px;
@@ -370,5 +394,24 @@ body{
     }
     .copy{
         font-size: 18px;
+    }
+}
+@media (max-width: 1200px) {
+    .certificationLay1 a img {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    .certificationLay1 a img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .certificationLay1 a img {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
