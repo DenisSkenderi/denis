@@ -119,5 +119,31 @@
     <div class="footer">
         <p class="copy" align="center">&copy; All rights reserved by Denis Skenderi</p>
     </div>
+    <script>
+        $(document).ready(function() {
+            $('.link').click(function(event) {
+                event.preventDefault(); 
+                var target = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(target).offset().top - 70 
+                }, 1000);
+            });
+        });
+
+        let lastScrollTop = 0;
+        const navbar = document.querySelector('.home');
+
+        window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            navbar.classList.add('hidden-navbar');
+        } else {
+            navbar.classList.remove('hidden-navbar');
+        }
+
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For mobile or negative scrolling
+        });
+    </script>
 </body>
 </html>
