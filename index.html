@@ -118,25 +118,6 @@
     </div>
     <div class="footer">
         <p class="copy" align="center">&copy; All rights reserved by Denis Skenderi</p>
-    </div>
-    <script>
-        $(document).ready(function() {
-            let previousScrollPosition = window.pageYOffset;
-            
-            $(window).on('scroll', function() {
-                let currentScrollPosition = window.pageYOffset;
-     
-                if (previousScrollPosition > currentScrollPosition) {
-                    // Show the navbar when scrolling up
-                    $('.home').css('top', '0');
-                } else {
-                    // Hide the navbar when scrolling down
-                    $('.home').css('top', '-100px');
-                }
-     
-                previousScrollPosition = currentScrollPosition;
-            });
-        });
-     </script>     
+    </div>  
 </body>
 </html>
